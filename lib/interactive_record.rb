@@ -2,10 +2,10 @@ require_relative "../config/environment.rb"
 require 'active_support/inflector'
 
  require 'pry'
-class InteractiveRecord	class InteractiveRecord
+class InteractiveRecord
 
 
- end 	  def self.table_name
+  def self.table_name
     self.to_s.downcase.pluralize
   end
 
